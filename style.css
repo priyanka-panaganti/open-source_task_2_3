@@ -1,0 +1,100 @@
+
+
+
+body {
+    background-image: url(https://i.pinimg.com/736x/0e/af/30/0eaf307e00f1deb9030959a458a627f0.jpg);
+    background-size: 42cm 20cm;
+    background-repeat: no-repeat;
+    background-position:relative ;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-family: "Palatino", "Book Antiqua", serif;
+}
+ 
+#intro {
+    background-color: rgb(0, 0,0,0.5)  ;
+    text-align: center;
+     padding: 30px;
+     margin: auto;
+     color: #f1f1f1;
+}
+ 
+#weatherContainer {
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 5px black;
+    padding: 15px;
+    
+    border-radius: 10px;
+    position: fixed;
+    visibility: hidden;
+    margin: 80px auto;
+   
+    width: 350px;
+    
+
+   
+   
+   
+}
+#weatherContainer h1 {
+    margin: 5px;
+    font-size: 42px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#searchContainer {
+    padding: 20px;
+    margin-left: 35%;
+    font-weight: 500;
+}
+#searchContainer input {
+    width: 200px;
+    
+}
+#searchContainer button {
+    background-color:skyblue;
+    color: white;
+    width: 50px;
+}
+.searchControl {
+    box-shadow: 2px 2px 5px skyblue;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+@media (min-width: 768px) {
+ 
+    #searchContainer input{
+        width: 50vh;
+        height: 10vh;
+        font-size: 6mm;
+    }
+    #searchContainer button {
+        width: 10vh;
+        height: 10vh;
+        font-size: 5mm;
+        
+    }
+}
+#weatherMain {
+    display: block;
+    margin-bottom: 20px;
+}
+#weatherMain div {
+    display: inline-block;
+}
+#weatherDescriptionHeader {
+    font-size: 28px;
+    vertical-align: 50%;
+}
+#temperature {
+    font-size: 38px;
+    vertical-align: 25%;
+}
+.bottom-details {
+    display: block;
+    font-size: 24px;
+    text-align: right;
+}
+hr {
+    margin-bottom: 20px;
+}
