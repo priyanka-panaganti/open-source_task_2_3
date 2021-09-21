@@ -35,6 +35,7 @@ function init(resultFromServer) {
             break;
  
         case 'Mist':
+        case 'Haze':
             document.body.style.backgroundImage = "url('mistPicture.jpg')";
             break;    
         
